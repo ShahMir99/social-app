@@ -1,0 +1,102 @@
+.backspace {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid #0000001c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.backspace button {
+  border: none;
+  background: linear-gradient(
+    to left,
+    rgba(136, 139, 244, 1),
+    rgb(112, 112, 214)
+  );
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.backspace > svg {
+  font-size: 30px;
+  padding: 1px;
+}
+
+.content_part {
+  width: 100%;
+  padding: 20px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creatorImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.creatorImage > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.select {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(136, 139, 244, 1);
+}
+.select > select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: rgba(136, 139, 244, 1);
+  font-weight: 600;
+}
+
+.select > select option {
+    font-size: 13px;
+}
+
+.Add_image > svg {
+  font-size: 26px;
+  color: rgba(136, 139, 244, 1);
+}
+
+.writting__part {
+  width: 100%;
+  padding: 0px 20px 20px;
+  margin-top: 10px;
+}
+
+.writting__part > textarea {
+  width: 100%;
+  resize: none;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.fileBase_image{
+  width: 85px;
+  overflow: hidden;
+}
+
+.error_span{
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.438);
+  color: white;
+  padding: 10px;
+}

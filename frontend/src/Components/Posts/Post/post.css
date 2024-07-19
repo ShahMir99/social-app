@@ -1,0 +1,145 @@
+.post {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.top__region {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name_time{
+  display: flex;
+  flex-direction: column;
+}
+.Post__heading__verifying{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.Post__heading__verifying > a {
+  text-decoration: none;
+
+}
+
+.Post__heading__verifying > a > h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.Post__heading__verifying > svg {
+  font-size: 15px;
+    color: #3575c9;
+}
+
+.avatar .name_time > span {
+  font-size: 11px;
+  color: #000000a1;
+  font-weight: 500;
+}
+
+.top__region .avatar > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.timeStamp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.timeStamp > span{
+  text-align: center;
+  padding: 3px 15px;
+  background-color: rgb(221, 221, 221);
+}
+.timeStamp > svg {
+  color: rgba(0, 0, 0, 0.829);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.postimage{
+    padding: 5px 0;
+}
+.postimage img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.postimage > p {
+  width: 100%;
+  padding: 0px 15px 0px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.like__comments{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0px 15px 5px;
+  gap: 15px;
+}
+
+.comment , .likes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  
+}
+
+.likes > svg {
+  font-size: 26px;
+  color :rgb(201, 55, 19);
+  cursor: pointer;
+
+}
+.comment  > svg {
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+
+.like__comments span {
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.like_comments_count{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 15px 5px;
+  gap: 5px;
+}
+
+.like_comments_count > h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.like_comments_count > a {
+  text-decoration: none;
+}
+
+.like_comments_count > p {
+  font-weight: 500;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.589)
+}
+

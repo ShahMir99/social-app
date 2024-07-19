@@ -1,0 +1,63 @@
+.comment_loader{
+    width: 100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    gap: 10px;
+}
+
+.comment_loader .image_load{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+.content_load{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content_load .name_loader{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.content_load .content_loader{
+    width: 50%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+
+  .content_load .content_loader:after {
+    content: '';
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: loader-animate;
+    animation-timing-function: linear;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.203) 30%, rgba(255,255,255,0) 81%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.203) 30%, rgba(255,255,255,0) 81%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.203) 30%, rgba(255,255,255,0) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+  }
+
+
+
+  @keyframes loader-animate{
+    0%{
+       transform: translate3d(-100%, 0, 0);
+     }
+    100%{
+       transform: translate3d(100%, 0, 0);
+     }
+   }

@@ -1,0 +1,32 @@
+// Constants For REGISTER  ==================>
+
+
+export const REGISTER_REQUEST_START = "REGISTER_REQUEST_START"
+export const REGISTER_REQUEST_SUCCESSFULL = "REGISTER_REQUEST_SUCCESSFULL"
+export const REGISTER_REQUEST_FAIL = "REGISTER_REQUEST_FAIL"
+
+
+
+// Constants For lOGIN  ==================>
+
+
+export const LOGIN_REQUEST_START = "LOGIN_REQUEST_START"
+export const LOGIN_REQUEST_SUCCESSFULL = "LOGIN_REQUEST_SUCCESSFULL"
+export const LOGIN_REQUEST_FAIL = "LOGIN_REQUEST_FAIL"
+
+
+// Constants For Profile  ==================>
+
+
+export const GET_PROFILE_START = "GET_PROFILE_START"
+export const GET_PROFILE_SUCCESSFULL = "GET_PROFILE_SUCCESSFULL"
+export const GET_PROFILE_FAIL = "GET_PROFILE_FAIL"
+
+
+
+// Constants For Profile Update ==================>
+
+
+export const USER_UPDATE_START = "USER_UPDATE__START"
+export const USER_UPDATE__SUCCESSFULL = "USER_UPDATE__SUCCESSFULL"
+export const USER_UPDATE__FAIL = "USER_UPDATE__FAIL"

@@ -1,0 +1,67 @@
+.Post_comment_div{
+    width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Comments_backspace{
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.205);
+    
+}
+
+.Comments_backspace > svg {
+    font-size: 30px;
+}
+
+.Comments_backspace > h4 {
+    font-size: 20px;
+}
+
+.write_comment{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-top: 1px solid rgba(53, 52, 52, 0.295);
+}
+
+.write_comment > input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+
+.write_comment > button {
+    font-size: 19px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(23, 96, 192);
+    font-weight: 500;
+}
+
+.comment_body{
+    width: 100%;
+    padding-top:10px;
+
+}

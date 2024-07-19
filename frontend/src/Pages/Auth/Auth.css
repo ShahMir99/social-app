@@ -1,0 +1,124 @@
+.authContainer{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.imageBox{
+    position: relative;
+}
+
+.imageBox img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+}
+
+.imageBox::after{
+    content: "Well Come";
+    position: absolute;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0);
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.form{
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+    transform: translateY(-100px);
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px 0 25px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.form > span {
+    margin-top: 15px;
+    color: #5252C7;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.input::placeholder{
+    font-size: 16px;
+}
+
+.pass_field{
+    width: 100%;
+    position: relative;
+}
+.pass_field >svg {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+    color: #616161;
+}
+
+.input{
+
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #eeeeee;
+    outline-color: rgb(63, 119, 172);
+}
+
+.button{
+    border-radius:30px !important;
+    margin-top: 20px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+    padding: 12px !important;
+    margin-bottom: 10px !important;
+    background: linear-gradient(to left , rgba(136, 139, 244, 1), rgb(63, 63, 172));
+}
+
+
+.googleIcon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.googleIcon > svg{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.bottom_warning{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.load__icon{
+    font-size: 28px;
+    position: absolute;
+    right: 30px;
+    animation: rotate 1s linear infinite;
+}
+
+.Loading{
+    background: rgb(161, 168, 170) !important;
+    cursor: not-allowed;
+    color: white !important;
+}
+
+@keyframes rotate {
+    to {
+        transform : rotateZ(-360deg)
+    }
+}

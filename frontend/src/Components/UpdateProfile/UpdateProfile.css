@@ -1,0 +1,144 @@
+.backspace > div >h3 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.884);
+  font-weight: 600;
+}
+.update_profile_Main {
+  width: 100%;
+}
+.backspace > div > svg {
+  font-size: 25px;
+}
+
+.update_bg_div {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.update_bg_div::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.update_bg_div > svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  z-index: 100;
+}
+
+.update_bg_div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.profile_cover{
+    border: 3px solid white;
+}
+.profile_image {
+  width: 100%;
+  height: 90px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  transform: translateY(-35px);
+  position: relative;
+}
+
+.img_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  border: 4px solid white;
+
+}
+.inner_img_box{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+}
+.inner_img_box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+.img_box .inner_img_box > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img_box .inner_img_box > svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+}
+
+.update_input,
+.update_about {
+  margin-top: 10px;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.update_input > input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.update_input label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.747);
+}
+.update_about > textarea {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  height: 60px;
+  padding: 8px 0;
+  resize: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.update_about label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.747);
+}

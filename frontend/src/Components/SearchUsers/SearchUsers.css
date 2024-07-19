@@ -1,0 +1,61 @@
+.SearchUsers{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.__Signle__user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.__Signle__user > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    text-align: right;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+}
+.heading a {
+    text-decoration: none;
+}
+.heading a > h2 {
+    width: 100%;
+    text-decoration: none;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+.heading > svg {
+    color: rgb(52, 137, 216);
+    font-size: 20px;
+}
+
+.name > p {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.589);
+}

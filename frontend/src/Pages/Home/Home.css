@@ -1,0 +1,17 @@
+.Home{
+    background-color: rgb(255, 255, 255);
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 65px;
+    padding: 10px 0;
+
+}
+
+.No_mainpage_post{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
